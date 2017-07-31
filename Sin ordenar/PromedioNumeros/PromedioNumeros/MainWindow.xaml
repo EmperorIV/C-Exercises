@@ -1,0 +1,12 @@
+﻿<Window x:Class="PromedioNumeros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+        <TextBlock> Ingrese la cantidad de numeros</TextBlock>
+        <TextBox x:Name="caja"></TextBox>
+            <Button x:Name="enviar" Click="enviar_Click_1">Enviar</Button>
+        </StackPanel>
+    </Grid>
+</Window>

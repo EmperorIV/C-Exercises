@@ -1,0 +1,17 @@
+﻿<Window x:Class="Colegio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Colegio"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="525">
+    <StackPanel>
+        <TextBlock>Ingrese valor materia</TextBlock>
+        <TextBox x:Name="caja2"></TextBox>
+        <TextBlock>Ingrese cantidad materias</TextBlock>
+        <TextBox x:Name="caja1"></TextBox>
+        <Button x:Name="boton1" Click="boton1_Click"> Enviar</Button>
+    
+    </StackPanel>
+</Window>

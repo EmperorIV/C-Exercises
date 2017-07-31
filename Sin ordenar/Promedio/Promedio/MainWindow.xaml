@@ -1,0 +1,15 @@
+﻿<Window x:Class="Promedio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Numeros" Height="270" Width="400">
+    <Grid>
+        <StackPanel>
+            <TextBlock  Text="Ingrese la cantidad de datos" TextAlignment="Center"  Margin="10"  />
+            <TextBox x:Name="caja1"  Margin="10"  />
+     
+         <Button x:Name="boton1" Click="boton1_Click_1" Margin="10" Content="Consultar Promedio"/>
+         <Button x:Name="boton2" Click="boton2_Click_1" Margin="10" Content="Consultar sumatoria" />
+         <Button x:Name="boton3" Click="boton3_Click_1" Margin="10" Content="Consultar Factorial"/>
+        </StackPanel>
+    </Grid>
+</Window>
